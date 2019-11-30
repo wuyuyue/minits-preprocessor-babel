@@ -1,10 +1,10 @@
-#简介
+# 简介
 
 基于babel体系,借助babel转译插件开发方式为minits做预处理(typescript==>minits)
 
   以实现类的构造函数预处理为例
 
-  input
+  ## input
 
   ```
     class Employee {
@@ -30,7 +30,7 @@
 
   ```
 
-  output
+  ## output
 
   ```
   class Employee {
@@ -65,7 +65,7 @@
     }
   ```
 
-#安装运行
+# 安装运行
 
 ```
  yarn
@@ -75,7 +75,7 @@
 
 
 
-#参考
+# 参考
 
 1. [babel体系介绍](https://zhuanlan.zhihu.com/p/43249121 "babel体系介绍")
 2. [插件开发手册](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md)
