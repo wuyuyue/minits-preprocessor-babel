@@ -55,6 +55,7 @@
 
     function main(): number {
       const a = new Employee(42, "Mohanson"),
+            b = new Employee(2, 'Hu');
       Employee_constructor(b, 2, 'Hu')
       Employee_constructor(a, 42, "Mohanson")
       const c = new Employee(112, 'Wu');
